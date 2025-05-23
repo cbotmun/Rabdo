@@ -35,6 +35,9 @@ make
 #####################################################################################################################################
 # ARRIBA
 #####################################################################################################################################
+# Descargar datos en Docker:
+# scp twidmann@picasso.scbi.uma.es:'/mnt/home/users/bio_028_genyo/twidmann/DATA/Rabdo/alignment-star/*.bam' /home/ubuntu/Rabdo_data/bam
+
 # Descargar el repositorio
 wget https://github.com/suhrig/arriba/releases/download/v2.5.0/arriba_v2.5.0.tar.gz
 tar -xzf arriba_v2.5.0.tar.gz
